@@ -40,7 +40,7 @@ const MessageTitle = () => {
                         Hello, I'm
                         <br/>
                         <span>
-                            <strong style={{color:'#B14AED'}}>Daenielle May</strong>
+                            <strong style={{color:'#FFAFF0'}}>Daenielle May</strong>
                         </span>
                     </div>
                 <div className='sub'>
