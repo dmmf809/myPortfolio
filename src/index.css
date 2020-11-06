@@ -11,6 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Karla", sans-serif;
 
+  background-color: whitesmoke;
+
   /* Full height */
   height: 100%;
 

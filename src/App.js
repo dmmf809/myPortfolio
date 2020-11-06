@@ -1,13 +1,14 @@
 
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-//mport { Parallax } from "react-parallax";
+//import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container"
 
 import MyNavbar from './components/my-navbar/MyNavbar'
 import MyCarousel from "./components/my-carousel/MyCarousel"
 import MessageTitle from './components/title-message/titleMessage'
 import About from "./pages/about/about"
+import Skills from "./pages/skills/skills"
 import './App.css'
 
 const App = () => {
@@ -22,7 +23,12 @@ const App = () => {
                 <About />
               </Fade>
             </Container>
-        </div>       
+        </div> 
+        <div>
+          <Container className="container-box"> 
+              <Skills />
+          </Container>
+        </div>      
     </div>
   );
 }
