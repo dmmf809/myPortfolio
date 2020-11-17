@@ -10,6 +10,7 @@ import "./skill-style.css"
 
 const Skills = () => {
     return(
+        <div id="skills">
         <div className="skills pt-3 pb-3">
             <Fade right>
             <h1 className="header text-center pb-4">
@@ -89,6 +90,7 @@ const Skills = () => {
                 </Row>
             </CardDeck>
             </Slide>
+        </div>
         </div>
     )
 }

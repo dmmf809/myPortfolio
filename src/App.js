@@ -9,6 +9,9 @@ import MyCarousel from "./components/my-carousel/MyCarousel"
 import MessageTitle from './components/title-message/titleMessage'
 import About from "./pages/about/about"
 import Skills from "./pages/skills/skills"
+import Projects from "./pages/projects/projects"
+import Contact from "./pages/contact/contact"
+import Footer from './components/footer/footer'
 import './App.css'
 
 const App = () => {
@@ -23,12 +26,23 @@ const App = () => {
                 <About />
               </Fade>
             </Container>
-        </div> 
+        </div>
         <div>
           <Container className="container-box"> 
-              <Skills />
+            <hr />
+            <Skills />
           </Container>
-        </div>      
+        </div>
+        <Projects />
+        <Container className="container-box">
+          <Fade duration={1000}>
+            <hr />
+            <Contact />
+          </Fade>
+        </Container>
+        <hr/>
+          <Footer/>      
+
     </div>
   );
 }
